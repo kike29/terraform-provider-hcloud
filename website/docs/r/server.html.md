@@ -27,7 +27,7 @@ The following arguments are supported:
 
 - `name` - (Required, string) Name of the server to create (must be unique per project and a valid hostname as per RFC 1123).
 - `server_type` - (Required, string) Name of the server type this server should be created with.
-- `image` - (Required, string) Name or ID of the image the server is created from.
+- `image` - (Required, string) Name or ID of the image the server is created from. You can also add the packer image ID here
 - `location` - (Optional, string) The location name to create the server in. `nbg1`, `fsn1` or `hel1`
 - `datacenter` - (Optional, string) The datacenter name to create the server in.
 - `user_data` - (Optional, string) Cloud-Init user data to use during server creation
